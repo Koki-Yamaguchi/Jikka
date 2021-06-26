@@ -75,6 +75,8 @@ tests:
     main:                doctests.hs
     source-dirs:         .
     ghc-options:
+    - -W
+    - -Werror
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
